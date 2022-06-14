@@ -3,9 +3,18 @@
   "version": "1.0.0",
   "description": "Learning node",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "nanoid": "^4.0.0"
+  }
 }
